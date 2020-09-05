@@ -185,7 +185,7 @@ Version:	1.1
 		/*===============================
 		12. Blog Slider
 		=================================*/ 
-		/* $(".blog-slider").owlCarousel({
+		 /*$(".blog-slider").owlCarousel({
 			loop:true,
 			autoplay:true,
 			smartSpeed: 700,
@@ -209,7 +209,7 @@ Version:	1.1
 					items: 3,
 				},
 			}
-		}); */
+		});*/
 	
 		/*======================================
 		13. Services Slider

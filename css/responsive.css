@@ -129,9 +129,18 @@ Version:	1.1
 }
 /* Hero Area */
 .hero-area .single-slider,
-
 .hero-area{
 	height:500px;
+}
+.hero-area2 .single-slider,
+.hero-area2{
+	height:700px;
+}
+.hero-area .slide-text2 div:first-child {
+	padding-bottom: 30px;
+}
+.hero-area .slide-text h2 {
+	font-size: 1.6em;
 }
 .hero-area .slide-text {
 	display: flex;
@@ -144,6 +153,7 @@ Version:	1.1
 	text-align: right;
 	padding: 0 0 0 270px;
 }
+
 .hero-area .slide-text h1 .short{
 	margin:0;
 }
@@ -166,6 +176,19 @@ Version:	1.1
 .hero-area.animate-text .single-slider, 
 .hero-area.animate-text .slide-text {
 	height: 500px;
+}
+
+.secao-missao .single-slider .fundo2, .secao-missao, .secao-missao .slide-text, .secao-missao .single-slider {
+	 height: 680px;
+ }
+.secao-missao .slide-text3 div {
+	width: 80%;
+}
+.secao-missao .slide-text3 div {
+	margin-top: 20px;
+}
+.secao-missao .slide-text3 h1 {
+	font-size: 1.6em;
 }
 /* Features */
 .features .features-single {
@@ -508,18 +531,29 @@ Version:	1.1
 .hero-area{
 	height:300px;
 }
+.hero-area2 .single-slider,
+.hero-area2{
+	height:700px;
+}
 .hero-area .single-slider .fundo {
-	height: 160px;
-	background-color: rgba(0,0,0,0.5);
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	height: 200px;
 }
 .hero-area .slide-text {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
+}
+.hero-area .slide-text2 {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.hero-area .slide-text h2 {
+	font-size: 1.2em;
 }
 .hero-area .slide-text.right {
 	text-align: right;
@@ -548,6 +582,9 @@ Version:	1.1
 .hero-area.creative .slide-text h1 {
 	line-height: 40px;
 }
+.hero-area .slide-text2 div:first-child {
+	padding-bottom: 30px;
+}
 .hero-area.creative .slide-text {
 	padding: 0 30px;
 }
@@ -570,6 +607,20 @@ Version:	1.1
 .hero-area.animate-text .single-slider .slide-text .btn {
 	padding: 14px 30px;
 }
+
+
+
+.secao-missao .single-slider .fundo2, .secao-missao, .secao-missao .slide-text, .secao-missao .single-slider {
+	height: 850px;
+}
+.secao-missao .slide-text3 div {
+	margin-top: 20px;
+}
+.secao-missao .slide-text3 h1 {
+	font-size: 1.6em;
+	line-height: 1px;
+}
+
 .why-choose .working-process{
 	height:auto;
 	padding:50px 40px;
@@ -714,6 +765,11 @@ Version:	1.1
 .about-us .tabs-main .nav-tabs li a {
 	padding: 12px 22px;
 }
+
+.conteudo .carrossel {
+	margin-top: 20px;
+}
+
 }
 
 /* Mobile Layout */
@@ -763,12 +819,20 @@ Version:	1.1
 	line-height: 28px;
 	font-size: 25px;
 }
+.hero-area .slide-text p {
+	line-height: 1.4em;
+	font-size: 1.1em;
+	padding-right: 10px;
+}
 .hero-area.animate-text .single-slider .slide-text .btn {
 	padding:12px 20px;
 	font-size:13px;
 }
 .hero-area.animate-text .slide-text {
 	padding-right: 0%;
+}
+.hero-area .slide-text2 div:first-child {
+	padding-bottom: 30px;
 }
 .projects.single .project-slider #bx-pager a img {
 	width: 50px;
@@ -826,4 +890,12 @@ Version:	1.1
 .error-page .error-inner h1 span {
 	font-size: 35px;
 }
+
+.conteudo .carrossel {
+	margin-top: 20px;
+}
+.conteudo {
+	padding: 20px;
+}
+
 }
