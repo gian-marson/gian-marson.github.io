@@ -141,12 +141,7 @@ a:active {
 	-moz-box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
 	box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
 }
-select:focus,
-select:active {
-    box-shadow: 0;
-    border: 0;
-    outline: 0
-}
+
 ul,
 ul li {
     margin: 0;
@@ -230,11 +225,7 @@ input:active {
     outline: none;
 	font-family: 'Open Sans', sans-serif;
 }
-select{
-    -webkit-appearance: none;
-   -moz-appearance:    none;
-   appearance:         none;
-}
+
 textarea:focus {
     outline: none !important;
     box-shadow: none !important
@@ -3118,7 +3109,7 @@ input:-webkit-autofill:focus {
 }
 /* Blog Archive */
 .blog-main.archive.section {
-	padding: 50px 0 80px;
+	padding: 20px 0 60px;
 }
 .blog-main.archive .single-blog.slider .blog-head:before{
 	display:none;
@@ -4422,7 +4413,7 @@ input:-webkit-autofill:focus {
 	font-size: 16px;
 	padding: 15px 12px;
 }
-.contact-us .form-group input {
+.contact-us .form-group input, .contact-us .form-group select {
 	width: 100%;
 	height: 50px;
 	border: 1px solid #ddd;
@@ -4448,6 +4439,8 @@ input:-webkit-autofill:focus {
 }
 .contact-us .form-group input:hover,
 .contact-us .form-group input:focus,
+.contact-us .form-group select:hover,
+.contact-us .form-group select:focus,
 .contact-us .form-group textarea:hover{
 	outline:none;
 }
@@ -4780,6 +4773,9 @@ input:-webkit-autofill:focus {
 .fundo-cinza {
 	background-color: #F6F6F6;
 }
+.fundo-cinza2 {
+	background-color: #B0B0B0;
+}
 .conteudo {
 	padding: 40px;
 }
@@ -4856,4 +4852,55 @@ input:-webkit-autofill:focus {
 }
 .carrossel-profissionais .table-bottom a:not(:first-child) {
 	margin-left: 20px;
+}
+
+.conteudo.clientes .lista-clientes {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.conteudo.clientes .lista-clientes div:not(:first-child) {
+	margin-left: 60px;
+}
+.conteudo.clientes .lista-clientes div {
+	align-self: center;
+	margin-top: 30px;
+}
+
+.conteudo.mapa-localizacao {
+	margin: 0;
+	padding: 0;
+}
+
+.conteudo.servicos2 .container-servicos {
+	display: grid;
+	grid-template-columns: auto auto;
+	row-gap: 15px;
+	column-gap: 20px;
+	align-items: center;
+}
+.conteudo.servicos2 .container-servicos a {
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+}
+
+.conteudo.servicos3 h1 {
+	text-transform: uppercase;
+}
+.conteudo.servicos3 .single-widget.photo-gallery ul {
+	overflow: hidden;
+}
+.conteudo.servicos3 .single-widget.photo-gallery ul li {
+	float: left;
+	margin: 10px 0 0 10px;
+	padding: 0;
+}
+.conteudo.servicos3 .single-widget.photo-gallery ul li:last-child{
+	margin-right:0px;
+}
+.conteudo.servicos3 .single-widget.photo-gallery ul li img {
+	width: 200px;
 }
