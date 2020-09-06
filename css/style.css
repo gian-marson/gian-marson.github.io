@@ -4904,3 +4904,10 @@ input:-webkit-autofill:focus {
 .conteudo.servicos3 .single-widget.photo-gallery ul li img {
 	width: 200px;
 }
+
+li.anchor {
+	display: block;
+	position: relative;
+	top: -250px;
+	visibility: hidden;
+}
