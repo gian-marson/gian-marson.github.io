@@ -4905,9 +4905,9 @@ input:-webkit-autofill:focus {
 	width: 200px;
 }
 
-li.anchor {
+a.anchor {
 	display: block;
 	position: relative;
-	top: -250px;
+	top: -200px;
 	visibility: hidden;
 }
